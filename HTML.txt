@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link href="style.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LabaDlyaNubipa</title>
+</head>
+<body>
+    <div class="content">
+        <header>
+            <div class="header_left">
+                <div class="header_left_1">
+                    <a class="header_left_list-item" href="#">Головна</a>
+                    <a class="header_left_list-item" href="#">Послуги</a>
+                    <a class="header_left_list-item" href="#">Про нас</a>
+                </div>
+                <div class="header_left_2">
+                    <a class="header_left_list-item" href="#">Ягоди</a>
+                    <a class="header_left_list-item" href="#">Вирощування</a>
+                    <a class="header_left_list-item" href="#">Контакти</a>
+                </div>
+            </div>
+            <div class="header_right">
+                <img class="header_righ_icon" src="img/marker.png">
+                <img class="header_righ_icon" src="img/phone.png">
+                <a class="header_righ_phone" href="tel:+380673973863">+38-067-397-38-63​</a>
+            </div>
+        </header>
+
+        <main>
+            <img src="img/logo.jpg" class="img_1">
+
+            <div class="poslugi">
+                <h2 class="poslugi_h">Послуги</h2>
+                <div class=poslugi-list>
+                    <div class="poslugi-list_item">
+                        <img class="poslugi_img" src="img/posluga_1.jpg">
+                        <div class="poslugi_text">
+                            <p class="poslugi_text">Вирощуємо та продаємо органічну та екологічно чисту продукцію</p>
+                        </div>
+                    </div>
+                    <div class="poslugi-list_item">
+                        <img class="poslugi_img" src="img/posluga_2.jpg">
+                        <div class="poslugi_text">
+                            <p class="poslugi_text">Транспортуємо облаштованим автомобілем в межах України</p>
+                        </div>
+                    </div>
+                    <div class="poslugi-list_item">
+                        <img class="poslugi_img" src="img/posluga_3.jpg">
+                        <div class="poslugi_text">
+                            <p class="poslugi_text">Свіжезаморожені ягоди</p>
+                        </div>
+                    </div>
+                    <div class="poslugi-list_item">
+                        <img class="poslugi_img" src="img/posluga_4.jpg">
+                        <div class="poslugi_text">
+                            <p class="poslugi_text">Розрахунок зручним для Вас способом</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="proNas">
+                <h2 class="proNas_h">Про нас</h2>
+                <p class="proNas_p">Перший ягідний кооператив створили у Могилівській об`єднаній територіальній громаді Дніпропетровщини.Тут вирощують малину,полуницю,ожину,лохину,смородину,агруз,виноград та саджанці.</p>
+                <p class="proNas_p">У кооператив об`єдналися 12 підприємців.Назвали його "Перший ягідний".
+                    Загальна ягідна площа-30 гектарів.</p>
+                <img class="proNas_img" src="img/proNas.jpg">
+            </div>
+    
+            <div class="yagodi">
+                <div class="yagoda">
+                    <img class="yagoda_img" src="img/yagoda_1.jpg">
+                    <p class=yagoda_p>Полуниця</p>
+                    <p class=yagoda_p>Полуниця має форму маленького сердечка.Кожна усипана маленькими зернятками подібно до того,як земну кулю людьми.</p>
+                </div>
+                <div class="yagoda">
+                    <img class="yagoda_img" src="img/yagoda_2.jpg">
+                    <p class=yagoda_p>Ожина</p>
+                    <p class=yagoda_p>Все літо красується невисокий чагарник-ожина.У цієї "малини" ягоди - чорні, з сизим нальотом ,а квіти,як у суниці.</p>
+                </div>
+                <div class="yagoda">
+                    <img class="yagoda_img" src="img/yagoda_3.jpg">
+                    <p class=yagoda_p>Малина</p>
+                    <p class=yagoda_p>Смачна ягода-це ягода-малина.Але малину збирати нелегко,чому? Тому що на ній багато шпильок,вона дуже колюча.</p>
+                </div>
+                <div class="yagoda">
+                    <img class="yagoda_img" src="img/yagoda_4.jpg">
+                    <p class=yagoda_p>Чорна смородина</p>
+                    <p class=yagoda_p>Симпатичні, яскраві ягоди - смачні, кисло солодкі, соковиті ягоди смородини. Смородина перевищує всі види плодів та ягід, за вмістом вітаміну С, поступаючись першості лише шипшині.</p>
+                </div>
+                <div class="yagoda">
+                    <img class="yagoda_img" src="img/yagoda_5.jpg">
+                    <p class=yagoda_p>Червона смородина</p>
+                    <p class=yagoda_p>Яскраві червоні грона червоної смородини ніжних прозорих ягід.Кисла,
+                        смачна!Дивишся на них-і так хочеться скуштувати.</p>
+                </div>
+                <div class="yagoda">
+                    <img class="yagoda_img" src="img/yagoda_6.jpg">
+                    <p class=yagoda_p>Виноград</p>
+                    <p class=yagoda_p>Солодкі і ароматні ягоди винограду пофарбовані в різні кольори. Тут природа фарб не пошкодувала! Сині і фіолетові, темно-червоні та рожеві, зелені і жовтуваті.</p>
+                </div>
+            </div>
+    
+            <div class="vurost">
+                <h2 class="vurost_h">Вирощування</h2>
+                <img class="vurost_img_now" src="img/vurost_1_now.jpg">
+                <div class="vurost_imgs">
+                    <div class="vurost_img">
+                        <img src="img/vurost_1.jpg">
+                    </div>
+                    <div class="vurost_img">
+                        <img src="img/vurost_2.jpg">
+                    </div>                    
+                    <div class="vurost_img">
+                        <img src="img/vurost_3.jpg">
+                    </div>                    
+                    <div class="vurost_img">
+                        <img src="img/vurost_4.jpg">
+                    </div>                    
+                    <div class="vurost_img">
+                        <img src="img/vurost_5.jpg">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="contacts">
+                <h2 class="contacts_h">Контакти</h2>
+                <div class=contacts_conteiner>
+                    <div class="contacts_left">
+                        <p class="contact_p_adressa">Адреса:</p>
+                        <p class="contact_p">51040</p>
+                        <p class="contact_p">Дніпропетровська обл.,<br>
+                            Царичанський район, село Могилів,<br>
+                            вул. Тургенєва, будинок 3</p><br>
+                        <p class="contact_p">1yahidniy@ukr.net</p>
+                        <a class="contacts_phone" href="tel:+380673973863">+38-(067)-397-38-63​</a>
+                    </div>
+                    <div class="contacts_right">
+                        <img class="contacts_img" src="img/karta.jpg">
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p class="footer_p">© 2023 СОК "Перший Ягідний"</p>
+            <div class="footer_imgs">
+                <img class="footer_img" src="img/icon_1.jpg">
+                <img class="footer_img" src="img/icon_2.jpg">
+                <img class="footer_img" src="img/icon_3.jpg">
+            </div>
+        </footer>
+
+    </div>
+</body>
+</html>

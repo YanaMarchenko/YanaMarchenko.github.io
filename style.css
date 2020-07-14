@@ -1,0 +1,828 @@
+@media (min-width: 900px) {
+    *,*::before,*::after {
+        box-sizing: border-box;
+      }
+      ul[class],ol[class] {
+        padding: 0;
+      }
+      body,h1,h2,h3,h4,p,ul[class],ol[class],li,figure,figcaption,blockquote,dl,dd {
+        margin: 0;
+      }
+      body {
+        min-height: 100vh;
+        scroll-behavior: smooth;
+        text-rendering: optimizeSpeed;
+        line-height: 1.5;
+      }
+      img {
+        max-width: 100%;
+        display: block;
+      }
+      input,button,textarea,select {
+        font: inherit;
+      }
+      li {
+          list-style-type: none; /* Убираем маркеры */
+      }
+      
+      A {
+          color: grey;
+      }
+      A:visited {
+          color: grey;
+      }
+      /* CONTENT */
+      .content {
+          max-width: 1200px;
+          margin: 0 auto;
+      }
+      
+      
+      /* HEADER */
+      header{
+          white-space: nowrap;
+          font: 13px Arial;
+          height: 55px;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-around;
+          align-items: center;
+      }
+      .header_button{
+        display: none;
+      }
+      .header_left{
+          display: flex;
+          flex-direction: row;
+          justify-content: space-around;
+      }
+      
+      .header_left_list-item{
+          margin: 15px;
+      }
+      .header_right {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-around;
+      }
+      .header_righ_icon{
+          width: 50px;
+          height: 50px;
+          margin: 3px;
+      }
+      .header_righ_phone{
+          text-decoration: none;
+          font-weight: 900;
+          margin: 15px;
+      }
+      /* IMG_1 */
+      .img_1 {
+          width: 100%;
+          margin: 0 auto;
+      }
+      /* POSLUGI */
+      .poslugi {
+          width: 85%;
+          margin: 0 auto;
+      }
+      .poslugi_h{
+          margin: 15px;
+          text-align: center;
+          color: lightgrey;
+          font-size: 46px;
+          font-weight: normal;
+      }
+      .poslugi-list {
+          display: flex;
+          justify-content:space-around;
+      
+      }
+      .poslugi-list_item {
+          text-align: center;
+          margin-top: 20px;
+          width: 170px;
+      }
+      .poslugi_img {
+          margin: 0 auto;
+          height: 125px;
+          weight: 125px;
+          border: 10px blue solid;
+          border-radius: 50%;
+      }
+      .poslugi_text {
+          font-size: 16px;
+          margin-top: 44px;
+      }
+      /* PRO NAS */
+      .proNas {
+          display: flex;
+          flex-direction: column;
+      
+          margin: 44px auto;
+          text-align: center;
+          width: 710px;
+      }
+      .proNas_h{
+          color: black;
+          font-size: 46px;
+          font-weight: normal;
+      }
+      .proNas_p{
+          margin: 15px;
+          font-size: 18px;
+      }
+      .proNas_img{
+          height: 488px;
+          width: 800;
+      }
+      
+      /* YAGODU */
+      .yagodi {
+          text-align: center;
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          justify-content: center;
+      }
+      .yagoda {
+          font: 16px Arial;
+          width: 305px;
+          margin: 15px;
+      }
+      .yagoda_img {
+          margin: 0 auto;
+          width: 100px;
+          height: 100px;
+          border: 10px blue solid;
+          border-radius: 50%;
+      }
+      .yagoda_p {
+          padding: 10px;
+      }
+      
+      /* VUROST */
+      .vurost {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          width: 85%;
+          margin: 0 auto;
+      }
+      .vurost_h {
+          margin: 15px;
+          text-align: center;
+          color: lightgrey;
+          font-size: 46px;
+          font-weight: normal;
+      }
+      .vurost_imgs {
+          display: flex;
+          flex-direction: row;
+          width: 720px;
+          margin: 0 auto;
+          justify-content: space-between;
+      }
+      .vurost_img {
+          width: 120px;
+          height: 120px;
+      }
+      .vurost_img_now {
+          width: 720px;
+          height: 424px;
+          margin: 25px auto;
+      }
+      
+      /* CONTACTS */
+      .contacts {
+          margin: 50px 0;
+      }
+      .contacts_h {
+          margin: 15px;
+          text-align: center;
+          color: lightgrey;
+          font-size: 46px;
+          font-weight: normal;
+      }
+      .contacts_conteiner{
+          display: flex;
+          flex-direction: row;
+          justify-content: space-around;
+      }
+      .contacts_left {
+          padding-left: 50px;
+      }
+      .contact_p {
+          font-size: 21px;
+          color: lightgray;
+      }
+      .contact_p_adressa {
+          font-size: 21px;
+      }
+      
+      .contacts_img{
+          height: 250px;
+          min-width: 600px;
+      }
+      /* FOOTER */
+      .footer_p{
+          margin: 15px;
+          text-align: center;
+          color: lightgrey;
+          font-size: 21px;
+          font-weight: normal;
+      }
+      .footer_imgs{
+          display: flex;
+          flex-direction: row;
+          width: 150px;
+          margin: 30px auto;
+          justify-content: space-between;
+      }
+      .footer_img{
+          width: 32px;
+          height: 32px;
+          border-radius: 50%;
+      }
+      .animation_div{
+        display: flex;
+        justify-content: center;
+    }
+
+    .animation_img {
+      margin: 45px;
+      width: 200px;
+      animation-name: rotation;
+      animation-duration: 5s;
+      animation-iteration-count: infinite;
+      animation-timing-function: linear;
+  }
+  @keyframes rotation {
+      0% {
+          transform:rotate(0deg);
+      }
+      100% {
+          transform:rotate(360deg);
+      }
+  }
+}
+
+@media (max-width: 900px) {
+    *,*::before,*::after {
+        box-sizing: border-box;
+      }
+      ul[class],ol[class] {
+        padding: 0;
+      }
+      body,h1,h2,h3,h4,p,ul[class],ol[class],li,figure,figcaption,blockquote,dl,dd {
+        margin: 0;
+      }
+      body {
+        min-height: 100vh;
+        scroll-behavior: smooth;
+        text-rendering: optimizeSpeed;
+        line-height: 1.5;
+      }
+      img {
+        max-width: 100%;
+        display: block;
+      }
+      input,button,textarea,select {
+        font: inherit;
+      }
+      li {
+          list-style-type: none; /* Убираем маркеры */
+      }
+      
+      A {
+          color: grey;
+      }
+      A:visited {
+          color: grey;
+      }
+      /* CONTENT */
+      
+      .content {
+          min-width: 790px;
+          max-width: 900px;
+          margin: 0 auto;
+      }
+      
+      
+      /* HEADER */
+      header{
+          font: 13px Arial;
+          display: flex;
+      }
+
+      .header_button{
+        display: none;
+      }
+      .header_left{
+          display: flex;
+      }
+      
+      .header_left_1{
+          display: flex;
+          justify-content: space-around;
+      }
+      .header_left_2 {
+          display: flex;
+          justify-content: space-around;
+      }
+      .header_left_list-item{
+          margin: 15px;
+      }
+      .header_right {
+          display: flex;
+          flex-direction: row;
+          justify-content: flex-end;
+      
+      }
+      .header_righ_icon{
+          width: 50px;
+          height: 50px;
+          margin: 3px;
+      }
+      .header_righ_phone{
+          text-decoration: none;
+          font-weight: 900;
+          margin: 15px;
+      }
+      
+      /* IMG_1 */
+      .img_1 {
+          width: 100%;
+          background-color: lightgrey;
+          border: 1px black solid;
+      }
+      
+      /* POSLUGI */
+      .poslugi {
+          width: 900px;
+          margin: 0 auto;
+      }
+      .poslugi_h{
+          margin: 15px;
+          text-align: center;
+          color: lightgrey;
+          font-size: 46px;
+          font-weight: normal;
+      }
+      .poslugi-list {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+      }
+      .poslugi-list_item {
+          text-align: center;
+          width: 400px;
+      }
+      .poslugi_img {
+          margin: 0 auto;
+          height: 150px;
+          width: 150px;
+          border: 10px blue solid;
+          border-radius: 50%;
+      }
+      .poslugi_text {
+          font-size: 16px;
+          margin-top: 44px;
+      }
+      
+      /* PRO NAS */
+      .proNas {
+          display: flex;
+          flex-direction: column;
+          margin: 44px auto;
+          text-align: center;
+      }
+      .proNas_h{
+          color: black;
+          font-size: 46px;
+          font-weight: normal;
+      }
+      .proNas_p{
+          margin: 15px;
+          font-size: 18px;
+      }
+      .proNas_img{
+          border: 1px black solid;
+      }
+      /* YAGODU */
+      .yagodi {
+          text-align: center;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+      }
+      .yagoda {
+          font: 16px Arial;
+          width: 305px;
+          margin: 15px;
+      }
+      .yagoda_img {
+          margin: 0 auto;
+          width: 140px;
+          height: 140px;
+          border: 10px blue solid;
+          border-radius: 50%;
+          overflow:hidden;
+      }
+      .yagoda_p {
+          padding: 10px;
+      }
+      
+      /* VUROST */
+      .vurost {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          width: 95%;
+          margin: 0 auto;
+      }
+      .vurost_h {
+          margin: 15px;
+          text-align: center;
+          color: lightgrey;
+          font-size: 46px;
+          font-weight: normal;
+      }
+      .vurost_imgs {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+      }
+      .vurost_img {
+          overflow: hidden;
+          width: 120px;
+          height: 120px;
+      }
+      .vurost_img img {
+          background-size: 100% auto;
+      }
+      .vurost_img_now {
+          width: 100%;
+          margin: 25px auto;
+      }
+      
+      
+      /* CONTACTS */
+      .contacts {
+          margin: 50px 0;
+      }
+      .contacts_h {
+          margin: 15px;
+          text-align: center;
+          color: lightgrey;
+          font-size: 46px;
+          font-weight: normal;
+      }
+      .contacts_conteiner{
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+      }
+      .contacts_left {
+          order: 2;
+          padding-left: 25px;
+      }
+      .contact_p {
+          order: 1;
+          font-size: 25px;
+          color: lightgray;
+      }
+      .contact_p_adressa {
+          font-size: 25px;
+      }
+      
+      .contacts_img{
+          margin: 0 auto;
+      }
+      
+      
+      /* FOOTER */
+      .footer_p{
+          margin: 15px;
+          text-align: center;
+          color: lightgrey;
+          font-size: 21px;
+          font-weight: normal;
+      }
+      .footer_imgs{
+          display: flex;
+          flex-direction: row;
+          width: 150px;
+          margin: 30px auto;
+          justify-content: space-between;
+      }
+      .footer_img{
+          width: 32px;
+          height: 32px;
+          border-radius: 50%;
+      }
+      .animation_div{
+        display: flex;
+        justify-content: center;
+    }
+
+    .animation_img {
+      margin: 45px;
+      width: 200px;
+      animation-name: rotation;
+      animation-duration: 5s;
+      animation-iteration-count: infinite;
+      animation-timing-function: linear;
+  }
+  @keyframes rotation {
+      0% {
+          transform:rotate(0deg);
+      }
+      100% {
+          transform:rotate(360deg);
+      }
+  }
+}
+
+@media (max-width: 790px) {
+    *,*::before,*::after {
+        box-sizing: border-box;
+      }
+      ul[class],ol[class] {
+        padding: 0;
+      }
+      body,h1,h2,h3,h4,p,ul[class],ol[class],li,figure,figcaption,blockquote,dl,dd {
+        margin: 0;
+      }
+      body {
+        min-height: 100vh;
+        scroll-behavior: smooth;
+        text-rendering: optimizeSpeed;
+        line-height: 1.5;
+      }
+      img {
+        max-width: 100%;
+        display: block;
+      }
+      input,button,textarea,select {
+        font: inherit;
+      }
+      li {
+          list-style-type: none; /* Убираем маркеры */
+      }
+      
+      A {
+          color: grey;
+      }
+      A:visited {
+          color: grey;
+      }
+      /* CONTENT */
+      
+      .content {
+          min-width: 320px;
+          max-width: 790px;
+          margin: 0 auto;
+      }
+      
+      /* HEADER */
+      header{
+          font-size: 20px;
+          display: flex;
+          flex-direction: row;
+      }
+      .header_button{
+        display: flex;
+        margin: 20px;
+      }
+      .header__img{
+        width: 55px;
+        height: 55px;
+      }
+      .header_left{
+          display: flex;
+          flex-direction: column;
+          display: none;
+      
+      }
+      .header_left_1{
+          display: flex;
+          justify-content: space-around;
+      }
+      .header_left_2{
+          display: flex;
+          justify-content: space-around;
+      }
+      .header_left_list-item{
+          margin: 15px;
+      }
+      .header_right {
+          margin: 20px;
+          display: flex;
+          flex-direction: row;
+      }
+      .header_righ_icon{
+          height: 50px;
+          width: 50px;
+      }
+      .header_righ_phone{
+          text-decoration: none;
+          font-weight: 900;
+          margin: 15px;
+      }
+      
+      /* IMG_1 */
+      .img_1 {
+          width: 100%;
+          background-color: lightgrey;
+          border: 1px black solid;
+          margin: 0 auto;
+      }
+      
+      /* POSLUGI */
+      .poslugi {
+          width: 85%;
+          margin: 0 auto;
+      }
+      .poslugi_h{
+          margin: 15px;
+          text-align: center;
+          color: lightgrey;
+          font-size: 46px;
+          font-weight: normal;
+      }
+      .poslugi-list {
+          display: flex;
+          justify-content:space-around;
+          flex-direction: column;
+      
+      }
+      .poslugi-list_item {
+          margin: 20px auto;
+          text-align: center;
+          width: 170px;
+      }
+      .poslugi_img {
+          margin: 0 auto;
+          height: 150px;
+          weight: 150px;
+          border: 10px blue solid;
+          border-radius: 50%;
+      }
+      .poslugi_text {
+          font-size: 16px;
+          margin-top: 44px;
+      }
+      
+      /* PRO NAS */
+      .proNas {
+          display: flex;
+          flex-direction: column;
+          margin: 44px auto;
+          text-align: center;
+      }
+      .proNas_h{
+          color: black;
+          font-size: 46px;
+          font-weight: normal;
+      }
+      .proNas_p{
+          margin: 15px;
+          font-size: 18px;
+      }
+      .proNas_img{
+      }
+      
+      /* YAGODU */
+      .yagodi {
+          text-align: center;
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          justify-content: center;
+      }
+      .yagoda {
+          font: 16px Arial;
+          width: 305px;
+          margin: 15px;
+      }
+      .yagoda_img {
+          margin: 0 auto;
+          width: 140px;
+          height: 140px;
+          border: 10px blue solid;
+          border-radius: 50%;
+          overflow:hidden;
+      }
+      .yagoda_p {
+          padding: 10px;
+      }
+      
+      
+      /* VUROST */
+      .vurost {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          width: 80%;
+          margin: 0 auto;
+      }
+      .vurost_h {
+          margin: 15px;
+          text-align: center;
+          color: lightgrey;
+          font-size: 46px;
+          font-weight: normal;
+      }
+      .vurost_imgs {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+      }
+      .vurost_img {
+          overflow: hidden;
+          width: 64px;
+          height: 64px;
+      }
+      .vurost_img img {
+          background-size: 100% auto;
+      }
+      .vurost_img_now {
+          width: 100%;
+          margin: 25px auto;
+      }
+      
+      /* CONTACTS */
+      .contacts {
+          margin: 50px 0;
+      }
+      .contacts_h {
+          margin: 15px;
+          text-align: center;
+          color: lightgrey;
+          font-size: 46px;
+          font-weight: normal;
+      }
+      .contacts_conteiner{
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+      }
+      .contacts_left {
+          order: 2;
+          padding-left: 25px;
+      }
+      .contact_p {
+          order: 1;
+          font-size: 25px;
+          color: lightgray;
+      }
+      .contact_p_adressa {
+          font-size: 25px;
+      }
+      
+      .contacts_img{
+          border: 1px black solid;
+      }
+      
+      /* FOOTER */
+      .footer_p{
+          margin: 15px;
+          text-align: center;
+          color: lightgrey;
+          font-size: 21px;
+          font-weight: normal;
+      }
+      .footer_imgs{
+          display: flex;
+          flex-direction: row;
+          width: 150px;
+          margin: 30px auto;
+          justify-content: space-between;
+      }
+      .footer_img{
+          width: 32px;
+          height: 32px;
+          border-radius: 50%;
+      }
+      .animation_div{
+          display: flex;
+          justify-content: center;
+      }
+
+      .animation_img {
+        margin: 45px;
+        width: 200px;
+        animation-name: rotation;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+    @keyframes rotation {
+        0% {
+            transform:rotate(0deg);
+        }
+        100% {
+            transform:rotate(360deg);
+        }
+    }
+}
